@@ -34,7 +34,7 @@ services:
       - rdb
 
   frontend:
-    image: ghcr.io/radifan9/radif-prospera-wallet-frontend:latest
+    image: ghcr.io/cristian-yw/prospera-wallet-frontend:latest
     networks:
       - prospera-net
     ports:
